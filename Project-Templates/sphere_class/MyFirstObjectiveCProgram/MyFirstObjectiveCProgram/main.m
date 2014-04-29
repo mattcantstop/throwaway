@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Sphere.h"
 
 int main()
 {
-
+    Sphere
     return 0;
 }

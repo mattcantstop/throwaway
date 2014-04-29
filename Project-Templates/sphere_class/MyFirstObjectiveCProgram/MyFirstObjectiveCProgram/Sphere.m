@@ -9,14 +9,22 @@
 #import "Sphere.h"
 
 @implementation Sphere
--(void)setRadius:(float)radius; {
+
+-(void)setRadius:(float)radius {
     _radius = radius;
 }
+
 -(float)radius {
     return _radius;
 }
 
--(void)setCenter:(NSArray *)center;
--(NSArray *)center;
+-(void)setCenter:(NSArray *)center {
+    _center = center;
+}
+
+-(NSArray *)center {
+    return _center;
+}
+
 
 @end
