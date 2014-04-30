@@ -11,6 +11,10 @@
 
 int main()
 {
-    Sphere
+    Sphere *ball = [[Sphere alloc] init];
+    
+    ball.radius = 34;
+    
+    NSLog(@"\nball radius %f", ball.radius);
     return 0;
 }

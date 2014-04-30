@@ -10,13 +10,11 @@
 
 @interface Sphere : NSObject {
     NSArray *_center;
-    float _radius;
 }
 
--(void)setRadius:(float)radius;
--(float)radius;
+@property(nonatomic) float radius;
+@property(nonatomic, strong) NSArray *center;
 
--(void)setCenter:(NSArray *)center;
--(NSArray *)center;
+
 
 @end
