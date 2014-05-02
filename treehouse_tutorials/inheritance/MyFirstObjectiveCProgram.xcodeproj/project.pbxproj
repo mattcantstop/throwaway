@@ -13,6 +13,8 @@
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		31B7060017F473B800CACEA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705FF17F473B800CACEA7 /* XCTest.framework */; };
 		31B7060117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
+		C983D65619113445001171ED /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = C983D65519113445001171ED /* Button.m */; };
+		C983D65C1911358E001171ED /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C983D65B1911358E001171ED /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		31B705EE17F473B800CACEA7 /* MyFirstObjectiveCProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstObjectiveCProgram-Prefix.pch"; sourceTree = "<group>"; };
 		31B705FE17F473B800CACEA7 /* MyFirstObjectiveCProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstObjectiveCProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B705FF17F473B800CACEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C983D65419113445001171ED /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		C983D65519113445001171ED /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		C983D65A1911358E001171ED /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		C983D65B1911358E001171ED /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				17EC5C6219108B8600BDB7F8 /* Shape.m */,
 				17EC5C6419108BFB00BDB7F8 /* Circle.h */,
 				17EC5C6519108BFB00BDB7F8 /* Circle.m */,
+				C983D65419113445001171ED /* Button.h */,
+				C983D65519113445001171ED /* Button.m */,
+				C983D65A1911358E001171ED /* Rectangle.h */,
+				C983D65B1911358E001171ED /* Rectangle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -219,6 +229,8 @@
 				17EC5C6619108BFB00BDB7F8 /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
 				17EC5C6319108B8600BDB7F8 /* Shape.m in Sources */,
+				C983D65619113445001171ED /* Button.m in Sources */,
+				C983D65C1911358E001171ED /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
