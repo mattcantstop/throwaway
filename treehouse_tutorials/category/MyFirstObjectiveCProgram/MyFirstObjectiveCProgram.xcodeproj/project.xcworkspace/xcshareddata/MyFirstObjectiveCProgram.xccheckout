@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BA7CAB13-DD2D-451E-8342-B86F047B9E7D</string>
+	<string>A3FD0F6A-4620-4B3A-8795-2D153EA1628F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyFirstObjectiveCProgram</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>ssh://github.com/mattcantstop/throwaway.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>treehouse_tutorials/nsdictionary/MyFirstObjectiveCProgram/MyFirstObjectiveCProgram.xcodeproj/project.xcworkspace</string>
+	<string>treehouse_tutorials/category/MyFirstObjectiveCProgram/MyFirstObjectiveCProgram.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7C380AEC-2E4E-473C-8CA4-BEDFB4E21291</key>

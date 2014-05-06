@@ -10,6 +10,19 @@
 
 int main()
 {
-    NSLog(@"Hello World");
+    NSDictionary *hash = @{@"color":@"red"};
+    NSLog(@"%@", hash);
+    
+    for (NSString *string in [hash allKeys]) {
+        NSLog(@"key: %@, value: %@", string, [hash objectForKey:string]);
+    }
+    
+    NSMutableDictionary *mutated = [NSMutableDictionary dictionaryWithDictionary:hash];
+    [mutated setObject:@"completed" forKey:@"status"];
+    NSLog(@"%@", mutated);
+    
+    NSString *string = [hash objectForKey:@"key"];
+    NSLog(@"%@", string);
+    
     return 0;
 }
